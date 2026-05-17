@@ -1,4 +1,4 @@
-package com.parkinglot.module;
+package com.parkinglot.vehicle;
 
 import com.parkinglot.enums.VehicleType;
 
