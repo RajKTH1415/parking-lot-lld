@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 
 public class PaymentService {
 
-    private double calculateFee(Ticket ticket){
+    public double calculateFee(Ticket ticket){
 
         LocalDateTime existTime = LocalDateTime.now();
 

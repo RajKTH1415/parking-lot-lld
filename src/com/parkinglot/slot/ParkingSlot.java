@@ -38,8 +38,8 @@ public class ParkingSlot {
         this.occupied = true;
 
     }
-    public synchronized void removeVehicle(Vehicle vehicle){
-        this.vehicle = vehicle;
+    public synchronized void removeVehicle(){
+        this.vehicle = null;
         this.occupied = false;
     }
     public int getSlotNumber(){

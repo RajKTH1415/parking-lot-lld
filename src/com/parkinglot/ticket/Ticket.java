@@ -10,7 +10,7 @@ public class Ticket {
 
     private String ticketId;
     private Vehicle vehicle;
-    private ParkingSlot parkingSlot;
+    private ParkingSlot slot;
     private LocalDateTime entryTime;
 
 
@@ -18,7 +18,7 @@ public class Ticket {
     public Ticket(Vehicle vehicle , ParkingSlot parkingSlot){
         this.ticketId = UUID.randomUUID().toString();
         this.vehicle = vehicle;
-        this.parkingSlot = parkingSlot;
+        this.slot = parkingSlot;
         this.entryTime = LocalDateTime.now();
     }
     public String getTicketId(){
@@ -27,9 +27,10 @@ public class Ticket {
     public Vehicle getVehicle(){
         return vehicle;
     }
-    public ParkingSlot getParkingSlot(){
-        return parkingSlot;
+    public ParkingSlot getSlot() {
+        return slot;
     }
+
     public LocalDateTime getEntryTime(){
         return entryTime;
     }
