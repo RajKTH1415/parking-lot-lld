@@ -1,6 +1,6 @@
 package com.parkinglot.floor;
 
-import com.parkinglot.parking.ParkingSlot;
+import com.parkinglot.slot.ParkingSlot;
 import com.parkinglot.vehicle.Vehicle;
 
 import java.util.ArrayList;
